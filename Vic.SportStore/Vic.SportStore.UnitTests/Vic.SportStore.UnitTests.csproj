@@ -55,6 +55,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vic.SportStore.Domain\Vic.SportStore.Domain.csproj">
+      <Project>{300b5e05-41e6-40d7-9934-483476681a0e}</Project>
+      <Name>Vic.SportStore.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vic.SportStore.WebApp\Vic.SportStore.WebApp.csproj">
+      <Project>{8bb2b505-4ce0-41b0-ba5b-478950899349}</Project>
+      <Name>Vic.SportStore.WebApp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
