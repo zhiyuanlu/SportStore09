@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Vic.SportStore.Domain</RootNamespace>
-    <AssemblyName>Vic.SportStore.Domain</AssemblyName>
+    <AssemblyName>Vic.SportsStore.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

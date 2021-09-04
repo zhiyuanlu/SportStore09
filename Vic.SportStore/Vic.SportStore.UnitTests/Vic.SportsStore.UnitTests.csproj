@@ -8,8 +8,8 @@
     <ProjectGuid>{32AC7FA8-A104-44D4-828B-91096C4D87A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vic.SportStore.UnitTests</RootNamespace>
-    <AssemblyName>Vic.SportStore.UnitTests</AssemblyName>
+    <RootNamespace>Vic.SportsStore.UnitTests</RootNamespace>
+    <AssemblyName>Vic.SportsStore.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,13 +56,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Vic.SportStore.Domain\Vic.SportStore.Domain.csproj">
+    <ProjectReference Include="..\Vic.SportStore.Domain\Vic.SportsStore.Domain.csproj">
       <Project>{300b5e05-41e6-40d7-9934-483476681a0e}</Project>
-      <Name>Vic.SportStore.Domain</Name>
+      <Name>Vic.SportsStore.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Vic.SportStore.WebApp\Vic.SportStore.WebApp.csproj">
+    <ProjectReference Include="..\Vic.SportStore.WebApp\Vic.SportsStore.WebApp.csproj">
       <Project>{8bb2b505-4ce0-41b0-ba5b-478950899349}</Project>
-      <Name>Vic.SportStore.WebApp</Name>
+      <Name>Vic.SportsStore.WebApp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

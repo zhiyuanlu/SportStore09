@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Vic.SportStore.Domain.Abstract;
-using Vic.SportStore.Domain.Entities;
+using Vic.SportsStore.Domain.Abstract;
+using Vic.SportsStore.Domain.Entities;
 
-namespace Vic.SportStore.Domain.Concrete
+namespace Vic.SportsStore.Domain.Concrete
 {
     public class InMemoryProductRepository : IProductsRepository
     {

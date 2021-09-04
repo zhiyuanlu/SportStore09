@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vic.SportStore.WebApp", "Vic.SportStore.WebApp\Vic.SportStore.WebApp.csproj", "{8BB2B505-4CE0-41B0-BA5B-478950899349}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vic.SportsStore.WebApp", "Vic.SportStore.WebApp\Vic.SportsStore.WebApp.csproj", "{8BB2B505-4CE0-41B0-BA5B-478950899349}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vic.SportStore.Domain", "Vic.SportStore.Domain\Vic.SportStore.Domain.csproj", "{300B5E05-41E6-40D7-9934-483476681A0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vic.SportsStore.Domain", "Vic.SportStore.Domain\Vic.SportsStore.Domain.csproj", "{300B5E05-41E6-40D7-9934-483476681A0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vic.SportStore.UnitTests", "Vic.SportStore.UnitTests\Vic.SportStore.UnitTests.csproj", "{32AC7FA8-A104-44D4-828B-91096C4D87A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vic.SportsStore.UnitTests", "Vic.SportStore.UnitTests\Vic.SportsStore.UnitTests.csproj", "{32AC7FA8-A104-44D4-828B-91096C4D87A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
