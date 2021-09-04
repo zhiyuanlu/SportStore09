@@ -11,7 +11,19 @@ namespace Vic.SportsStore.WebApp.Controllers
 {
     public class ProductsController : Controller
     {
-        private IProductsRepository repository = new InMemoryProductRepository();
+        //private IProductsRepository repository = new InMemoryProductRepository();
+
+        //Property Dependecy 
+        public IProductsRepository Repository { get; set; }
+
+        //Constructor Dependecy
+        //private IProductsRepository _repository;
+        //public ProductsController(IProductsRepository Repository) 
+        //{
+        //    _repository = Repository;
+        //}
+
+
         // GET: Products
         //public ActionResult Index()
         //{
@@ -19,7 +31,7 @@ namespace Vic.SportsStore.WebApp.Controllers
         //}
         public ViewResult List()
         {
-            return View(repository.Products);
+            return View(Repository.Products);
         }
 
     }
