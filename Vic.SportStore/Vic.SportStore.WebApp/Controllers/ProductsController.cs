@@ -11,6 +11,8 @@ namespace Vic.SportsStore.WebApp.Controllers
 {
     public class ProductsController : Controller
     {
+
+        public const int PageSize = 3;
         //private IProductsRepository repository = new InMemoryProductRepository();
 
         //Property Dependecy 
@@ -29,9 +31,17 @@ namespace Vic.SportsStore.WebApp.Controllers
         //{
         //    return View();
         //}
-        public ViewResult List()
+        public ViewResult List(int page = 1)
         {
-            return View(Repository.Products);
+            //return View(Repository.Products);
+            var result = Repository
+                .Products
+                .OrderBy(p => p.ProductId)
+                .Skip((page - 1) * PageSize)
+                .Take(PageSize);
+
+            return View(result);
+
         }
 
     }
