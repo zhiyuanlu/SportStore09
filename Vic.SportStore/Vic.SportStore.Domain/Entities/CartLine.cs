@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Vic.SportsStore.Domain.Entities;
 
-namespace Vic.SportStore.Domain.Entities
+namespace Vic.SportsStore.Domain.Entities
 {
     public class CartLine
     {

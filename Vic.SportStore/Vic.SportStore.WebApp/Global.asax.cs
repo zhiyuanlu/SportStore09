@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Vic.SportsStore.WebApp.Infrastructure.Binders;
+using Vic.SportStore.Domain.Entities;
 
 namespace Vic.SportsStore.WebApp
 {
@@ -14,6 +16,7 @@ namespace Vic.SportsStore.WebApp
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             IocConfig.ConfigIoc();
+            ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
         }
     }
 }
